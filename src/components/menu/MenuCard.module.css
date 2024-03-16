@@ -1,0 +1,18 @@
+.menu__card{
+    background-color: #eee;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 3rem;
+    transform: translateY(-25rem);
+    padding: 1rem;
+}
+
+@media (max-width: 320px) {
+    .menu__card{
+        width: 80%;
+    }
+  }

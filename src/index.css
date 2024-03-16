@@ -1,0 +1,58 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #444;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #e1eeeb;
+}
+p {
+  line-height: 1.6;
+  color: #e1eeeb;
+}
+a {
+  color: #06c;
+  text-decoration: none;
+}
+a:hover {
+  color: #f60;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+@media (max-width: 320px) {
+  html{
+    font-size: 18.75%;
+  }
+}
+@media (max-width: 375px) {
+  
+}
+@media (max-width: 425px) {
+  
+}
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 1024px) {
+  
+}
+@media (max-width: 1440px) {
+  
+}

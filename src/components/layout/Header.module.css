@@ -1,0 +1,88 @@
+
+.navbar {
+  width: 100%;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.nav__logo {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+.nav__logo img {
+  width: 4.8rem;
+  height: 4.8rem;
+  background-size: cover;
+}
+.nav__logo h3 {
+  font-size: 4rem;
+  font-family: "Madimi One", "sans-serif";
+  letter-spacing: 1rem;
+}
+.navbar button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 4rem;
+  background-color: rgba(121, 30, 30, 0.769);
+  cursor: pointer;
+  border: none;
+  border-radius: 10rem;
+  box-shadow: 0.1rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+  transition: all 0.2s;
+}
+.navbar button:hover {
+  box-shadow: 0.5rem 2rem 3rem rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+.navbar button p {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.navbar button span {
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  background-color: brown;
+  border-radius: 50%;
+  padding: .2rem 1rem;
+}
+.icon{
+  color: white;
+  font-size: 3.2rem;
+}
+.header__img img {
+  width: 100vw;
+  height: 70vh;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+  z-index: -100;
+}
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

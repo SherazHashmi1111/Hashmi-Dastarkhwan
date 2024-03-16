@@ -1,0 +1,31 @@
+.form{
+ max-width: 10rem;
+ margin-right: 10rem;
+}
+.menu__input{
+ display: flex;
+ flex-direction: column;
+ gap: .2rem;
+}
+.menu__input label{
+ font-size: 1.8rem;
+}
+.menu__input input{
+ padding: .5rem;
+ font-size: 2rem;
+ border: 1px solid black;
+}
+.menu__action button{
+ background-color: brown;
+ color: white;
+ padding: 1rem 2rem;
+ border: none;
+ border-radius: 2rem;
+ margin-top: 1rem;
+}
+
+@media (max-width: 320px) {
+    .menu__action button{
+        font-size: 2.2rem;
+    }
+  }

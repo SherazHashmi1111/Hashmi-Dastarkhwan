@@ -1,0 +1,57 @@
+.actions {
+  width: 100%;
+}
+.action {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.action h3,
+.action span {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: brown;
+}
+.empty__cart{
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #222;
+}
+.action span {
+  margin-right: 3rem;
+}
+.action__btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin-right: 3rem;
+  padding: 1rem 0rem;
+}
+.action__btn button {
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-size: 2rem;
+  font-weight: 600;
+  transition: all .2s;
+}
+.btnAlt {
+    background-color: brown;
+  color: white;
+}
+.btn {
+    background-color: transparent;
+  border: 1px solid brown;
+  color: brown;
+}
+.btnAlt:hover {
+    background-color: transparent;
+    color: brown;
+    border: 1px solid brown;
+    box-shadow: 0.2rem 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+.btn:hover {
+    background-color: brown;
+    color: white;
+    box-shadow: 0.2rem 1rem 2rem rgba(0, 0, 0, 0.5);
+}

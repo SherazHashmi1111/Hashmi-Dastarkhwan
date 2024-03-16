@@ -1,0 +1,27 @@
+.meun__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: .5px solid black;
+    padding-bottom: 4rem;
+}
+.menu__detail{
+    display: flex;
+    flex-direction: column;
+}
+.menu__detail h4{
+    font-family: 'Varela Round', 'sans-serif';
+    font-size: 4.8rem;
+    letter-spacing: .3rem;
+    color: black;
+    line-height: .01rem;
+}
+.menu__detail p{
+    font-size: 1.6rem;
+    color: black;
+}
+.menu__detail span{
+    color: brown;
+    font-size: 4rem;
+    font-family: 'Varela Round', 'sans-serif';
+}
