@@ -11,8 +11,8 @@
     padding: 1rem;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
     .menu__card{
-        width: 80%;
+        width: 75%;
     }
   }

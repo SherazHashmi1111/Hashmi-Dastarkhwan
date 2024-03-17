@@ -11,7 +11,7 @@
     z-index: 10000;
 }
 .overlay{
-    width: 30vw;
+    width: 50vw;
     max-height: 60vh;
     overflow-y: scroll;
     padding: 1rem;
@@ -27,8 +27,8 @@
     display: none;
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: 768px) {
     .overlay{
-        width: 60%;
+        width: 75%;
     }
   }
